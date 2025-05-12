@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Delta Website" />
+    <meta name="keywords" content="HTML, CSS, js" />
+    <meta name="author" content="Fardin Rezaie" />
+    <link href="styles/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="styles/css/materialdesignicons.css" type="text/css" />
+    <link rel="stylesheet" href="styles/css/bootstrap.rtl.min.css">
+    <title>3Click</title>
+
+    <!-- Jalali calender-->
+    <link rel="stylesheet" href="https://unpkg.com/@majidh1/jalalidatepicker/dist/jalalidatepicker.min.css" />
+    <script type="text/javascript" src="https://unpkg.com/@majidh1/jalalidatepicker/dist/jalalidatepicker.min.js">
+    </script>
+
+    <!-- swipper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<!-- &#8204; -->
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="part1 container d-none d-xxl-block d-xl-none d-lg-none d-md-none d-sm-none py-2">
+                <div class="row d-flex ps-4">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hidden"
+                        aria-controls="hidden" aria-expanded="false" aria-label="Hidden button">
+                        <span class="navbar-toggle-icon">Hide</span>
+                    </button>
+                    <a href="#" class="col-2 navbar-brand mx-0"><img src="images/3Click-Deltaban-Logo.svg" alt=""></a>
+                    <div id="hidden" class="col-5 navbar-collapse collapse px-0 mx-0">
+                        <ul class="navlist navbar-nav d-flex">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">بلیط&#8204;هواپیما</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">هتل</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">تور</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">پکیج</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">خدمات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">پاسپورت&#8204;دومیناکا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">بیمه</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">مجله&#8204;سه&#8204;کلیک</a>
+                            </li>
+                            <button href="#" type="button" class="btn btn-outline-primary px-3 d-lg-none d-md-block"
+                                style="font-weight: 500;font-size: 17px;">پیگیری و استرداد</button>
+                        </ul>
+                    </div>
+                    <div id="hidden2" class="col-5 ps-3 navbar-collapse collapse">
+                        <a href="#" type="button" class="btn btn-outline-primary d-md-none d-lg-block"
+                            style="font-weight: 500;font-size: 17px;"><span
+                                style="font-size: 18px;">۰۲۱-۲۲۲۲۲۴۲۶</span></a>
+                        <button href="#" type="button" class="btn btn-outline-primary px-3 d-md-none d-lg-block"
+                            style="font-weight: 500;font-size: 17px;">پیگیری و استرداد</button>
+                        <button href="#" type="button" class="btn btn-outline-primary px-3"
+                            style="font-weight: 500;font-size: 17px;">ورود / ثبت نام مسافر</button>
+                        <button href="#" type="button" class="btn btn-outline-primary px-3"
+                            style="font-weight: 500;font-size: 17px;">ورودآژانس</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="part2 container d-block d-xxl-none d-xl-block d-lg-block d-md-block d-sm-block py-2 ps-5">
+                <div class=" d-flex justify-content-between align-items-center">
+
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#asideCollapse" aria-expanded="false" aria-controls="asideCollapse"
+                        id="toggleAsideButton">
+                        <span class="mdi mdi-menu"></span>
+                    </button>
+
+                    <a href="#" class=" mx-0" style="width: 85px;"><img src="images/3Click-Deltaban-Logo.svg"
+                            alt=""></a>
+
+                    <div class="dropdown px-0">
+                        <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span class="mdi mdi-account"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item d-flex py-2 ps-2 mb-2 border-bottom"><span
+                                    class="mdi mdi-account me-3"></span><a class="nav-link" href="#">ورود/ثبت نام
+                                    مسافر</a></li>
+                            <li class="dropdown-item d-flex ps-2 py-2 mx-0 "><span
+                                    class="mdi mdi-account me-3"></span><a class="nav-link" href="#">ورودآژانس</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <section class="headerpart">
+            <div class="container">
+                <div class="toplist pb-0 px-0 mx-0">
+                    <ul class="row navlist navbar-nav ">
+                        <div class="col-6 col-sm-6 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+                            <li class="headeritems nav-item active">
+                                <a class="nav-link" href="#">
+                                    <img class="mb-2" src="images/Header/001-airplane.png" alt="">
+                                    <p>پرواز</p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+                            <li class="headeritems nav-item">
+                                <a class="nav-link" href="#">
+                                    <img class="mb-2" src="images/Header/002-resort.png" alt="">
+                                    <p>هتل</p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-1 col-lg-1 col-xl-1 col-xxl-1 ">
+                            <li class="headeritems nav-item ">
+                                <a class="nav-link " href="#">
+                                    <img class="mb-2" src="images/Header/003-travel-and-tourism.png" alt="">
+                                    <p>تور</p>
+                                </a>
+                            </li>
+                            <div class="offlogo">
+                                <img src="images/Header/download.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+                            <li class=" headeritems nav-item">
+                                <a class="nav-link" href="#">
+                                    <img class="mb-2" src="images/Header/004-backpack.png" alt="">
+                                    <p>پکیج</p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+                            <li class=" headeritems nav-item">
+                                <a class="nav-link" href="#">
+                                    <img class="mb-2" src="images/Header/005-eiffel-tower.png" alt="">
+                                    <p>خدمات</p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-1 col-lg-1 col-xl-1 col-xxl-1 ">
+                            <li class="headeritems nav-item">
+                                <a class="nav-link" href="#">
+                                    <img class="mb-2" src="images/Header/006-passport.png" alt="">
+                                    <p style="font-family: Arial, Helvetica, sans-serif;">CIP</p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-1  col-lg-1 col-xl-1 col-xxl-1">
+                            <li class=" headeritems nav-item">
+                                <a class="nav-link" href="#">
+                                    <img class="mb-2" src="images/Header/007-umbrella.png" alt="">
+                                    <p>بیمه</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <form class="formsection ms-0 ms-sm-5 ms-md-3 ms-sm-3">
+                    <div class="d-flex oneway form-check form-check-inline">
+                        <div>
+                            <input type="radio" name="radiobutton" id="go" class="form-check-input" checked>
+                            <label class="form-check-label float-start" for="go">یک طرفه</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="radiobutton" id="goback" class="form-check-input">
+                            <label class="form-check-label float-start" for="goback">دوطرفه</label>
+                        </div>
+                    </div>
+
+                    <div class="row selection_part mt-3 p-0 position-relative">
+
+                        <div id="select1" class="col-sm-7 col-md-7 col-lg-4 col-xl-4 col-xxl-4 p-0">
+                            <div class="contain px-0 position-relative d-flex">
+                                <div>
+                                    <button class="btn btn-light swapbutton" type="button">
+                                        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                                    </button>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-5 col-xxl-6 
+                                px-0 citypart dropdown me-lg-1 me-xl-1 me-xxl-1">
+                                    <button
+                                        class="btn btn-light select-btn d-flex justify-content-start align-items-center dropdown-toggle"
+                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span>مبدا</span>
+                                    </button>
+
+                                    <div class="content dropdown-menu p-3">
+                                        <div class="search mb-3 p-0">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <input spellcheck="false" type="text" placeholder="مبدا خود را تایپ کنید">
+                                        </div>
+                                        <div>
+                                            <div class="row justify-content-between">
+                                                <div class="col-6">
+                                                    <div class="dropdown-header d-flex sticky-top mb-1">
+                                                        <span class="me-2">شهرهای پرتردد</span>
+                                                        <span>داخلی</span>
+                                                    </div>
+                                                    <ul class="navlist navbar-nav options">
+                                                        <li class="nav-item dropdown-item">تهران</li>
+                                                        <li class="nav-item dropdown-item">مشهد</li>
+                                                        <li class="nav-item dropdown-item">کیش</li>
+                                                        <li class="nav-item dropdown-item">شیراز</li>
+                                                        <li class="nav-item dropdown-item">اهواز</li>
+                                                        <li class="nav-item dropdown-item">اصفهان</li>
+                                                        <li class="nav-item dropdown-item">تبریز</li>
+                                                        <li class="nav-item dropdown-item">بندرعباس</li>
+                                                        <li class="nav-item dropdown-item">قشم</li>
+                                                        <li class="nav-item dropdown-item">یزد</li>
+                                                        <li class="nav-item dropdown-item">رشت</li>
+                                                        <li class="nav-item dropdown-item">بوشهر</li>
+                                                        <li class="nav-item dropdown-item">آبادان</li>
+                                                        <li class="nav-item dropdown-item">زاهدان</li>
+                                                        <li class="nav-item dropdown-item">ساری</li>
+                                                        <li class="nav-item dropdown-item">عسلویه</li>
+                                                        <li class="nav-item dropdown-item">اردبیل</li>
+                                                        <li class="nav-item dropdown-item">چابهار</li>
+                                                        <li class="nav-item dropdown-item">کرج</li>
+                                                        <li class="nav-item dropdown-item">کرمان</li>
+                                                        <li class="nav-item dropdown-item">کرمانشاه</li>
+                                                        <li class="nav-item dropdown-item">ارومیه</li>
+                                                        <li class="nav-item dropdown-item">گرگان</li>
+                                                        <li class="nav-item dropdown-item">ایلام</li>
+                                                        <li class="nav-item dropdown-item">بیرجند</li>
+                                                        <li class="nav-item dropdown-item">دزفول</li>
+                                                        <li class="nav-item dropdown-item">بجنورد</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="dropdown-header d-flex sticky-top mb-1">
+                                                        <span class="me-2">شهرهای پرتردد</span>
+                                                        <span>خارجی</span>
+                                                    </div>
+                                                    <ul class="navlist navbar-nav options">
+                                                        <li class="nav-item dropdown-item">دبی</li>
+                                                        <li class="nav-item dropdown-item">استانبول</li>
+                                                        <li class="nav-item dropdown-item">پوکت</li>
+                                                        <li class="nav-item dropdown-item">بانکوک</li>
+                                                        <li class="nav-item dropdown-item">گوانجو</li>
+                                                        <li class="nav-item dropdown-item">مسکو</li>
+                                                        <li class="nav-item dropdown-item">شانگهای</li>
+                                                        <li class="nav-item dropdown-item">دهلی</li>
+                                                        <li class="nav-item dropdown-item">پکن</li>
+                                                        <li class="nav-item dropdown-item">اربیل</li>
+                                                        <li class="nav-item dropdown-item">لاهور</li>
+                                                        <li class="nav-item dropdown-item">آنتالیا</li>
+                                                        <li class="nav-item dropdown-item">آلانیا</li>
+                                                        <li class="nav-item dropdown-item">آنکارا</li>
+                                                        <li class="nav-item dropdown-item">ایروان</li>
+                                                        <li class="nav-item dropdown-item">تفلیس</li>
+                                                        <li class="nav-item dropdown-item">تورنتو</li>
+                                                        <li class="nav-item dropdown-item">نیویورک</li>
+                                                        <li class="nav-item dropdown-item">لوس آنجلس</li>
+                                                        <li class="nav-item dropdown-item">مونترال</li>
+                                                        <li class="nav-item dropdown-item">سیدنی</li>
+                                                        <li class="nav-item dropdown-item">لندن</li>
+                                                        <li class="nav-item dropdown-item">فرانکفورت</li>
+                                                        <li class="nav-item dropdown-item">پاریس</li>
+                                                        <li class="nav-item dropdown-item">آمستردام</li>
+                                                        <li class="nav-item dropdown-item">میلان</li>
+                                                        <li class="nav-item dropdown-item">نجف</li>
+                                                        <li class="nav-item dropdown-item">بغداد</li>
+                                                        <li class="nav-item dropdown-item">مسقط</li>
+                                                        <li class="nav-item dropdown-item">باکو</li>
+                                                        <li class="nav-item dropdown-item">وان</li>
+                                                        <li class="nav-item dropdown-item">دنیزلی</li>
+                                                        <li class="nav-item dropdown-item">ازمیر</li>
+                                                        <li class="nav-item dropdown-item">باتومی</li>
+                                                        <li class="nav-item dropdown-item">کولالامپور</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-5 col-xxl-6 
+                                px-0 citypart2 dropdown ms-lg-1 ms-xl-1 ms-xxl-1">
+                                    <button
+                                        class="btn btn-light select-btn2 d-flex justify-content-start align-items-center dropdown-toggle"
+                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span>مقصد</span>
+                                    </button>
+
+                                    <div class="content dropdown-menu p-3">
+                                        <div class="search mb-3 p-0">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <input spellcheck="false" type="text" placeholder="مقصد خود را تایپ کنید">
+                                        </div>
+                                        <div>
+                                            <div class="row justify-content-between">
+                                                <div class="col-6">
+                                                    <div class="dropdown-header d-flex sticky-top mb-1">
+                                                        <span class="me-2">شهرهای پرتردد</span>
+                                                        <span>داخلی</span>
+                                                    </div>
+                                                    <ul class="navlist navbar-nav options2">
+                                                        <li class="nav-item dropdown-item">تهران</li>
+                                                        <li class="nav-item dropdown-item">مشهد</li>
+                                                        <li class="nav-item dropdown-item">کیش</li>
+                                                        <li class="nav-item dropdown-item">شیراز</li>
+                                                        <li class="nav-item dropdown-item">اهواز</li>
+                                                        <li class="nav-item dropdown-item">اصفهان</li>
+                                                        <li class="nav-item dropdown-item">تبریز</li>
+                                                        <li class="nav-item dropdown-item">بندرعباس</li>
+                                                        <li class="nav-item dropdown-item">قشم</li>
+                                                        <li class="nav-item dropdown-item">یزد</li>
+                                                        <li class="nav-item dropdown-item">رشت</li>
+                                                        <li class="nav-item dropdown-item">بوشهر</li>
+                                                        <li class="nav-item dropdown-item">آبادان</li>
+                                                        <li class="nav-item dropdown-item">زاهدان</li>
+                                                        <li class="nav-item dropdown-item">ساری</li>
+                                                        <li class="nav-item dropdown-item">عسلویه</li>
+                                                        <li class="nav-item dropdown-item">اردبیل</li>
+                                                        <li class="nav-item dropdown-item">چابهار</li>
+                                                        <li class="nav-item dropdown-item">کرج</li>
+                                                        <li class="nav-item dropdown-item">کرمان</li>
+                                                        <li class="nav-item dropdown-item">کرمانشاه</li>
+                                                        <li class="nav-item dropdown-item">ارومیه</li>
+                                                        <li class="nav-item dropdown-item">گرگان</li>
+                                                        <li class="nav-item dropdown-item">ایلام</li>
+                                                        <li class="nav-item dropdown-item">بیرجند</li>
+                                                        <li class="nav-item dropdown-item">دزفول</li>
+                                                        <li class="nav-item dropdown-item">بجنورد</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="dropdown-header d-flex sticky-top mb-1">
+                                                        <span class="me-2">شهرهای پرتردد</span>
+                                                        <span>خارجی</span>
+                                                    </div>
+                                                    <ul class="navlist navbar-nav options2">
+                                                        <li class="nav-item dropdown-item">دبی</li>
+                                                        <li class="nav-item dropdown-item">استانبول</li>
+                                                        <li class="nav-item dropdown-item">پوکت</li>
+                                                        <li class="nav-item dropdown-item">بانکوک</li>
+                                                        <li class="nav-item dropdown-item">گوانجو</li>
+                                                        <li class="nav-item dropdown-item">مسکو</li>
+                                                        <li class="nav-item dropdown-item">شانگهای</li>
+                                                        <li class="nav-item dropdown-item">دهلی</li>
+                                                        <li class="nav-item dropdown-item">پکن</li>
+                                                        <li class="nav-item dropdown-item">اربیل</li>
+                                                        <li class="nav-item dropdown-item">لاهور</li>
+                                                        <li class="nav-item dropdown-item">آنتالیا</li>
+                                                        <li class="nav-item dropdown-item">آلانیا</li>
+                                                        <li class="nav-item dropdown-item">آنکارا</li>
+                                                        <li class="nav-item dropdown-item">ایروان</li>
+                                                        <li class="nav-item dropdown-item">تفلیس</li>
+                                                        <li class="nav-item dropdown-item">تورنتو</li>
+                                                        <li class="nav-item dropdown-item">نیویورک</li>
+                                                        <li class="nav-item dropdown-item">لوس آنجلس</li>
+                                                        <li class="nav-item dropdown-item">مونترال</li>
+                                                        <li class="nav-item dropdown-item">سیدنی</li>
+                                                        <li class="nav-item dropdown-item">لندن</li>
+                                                        <li class="nav-item dropdown-item">فرانکفورت</li>
+                                                        <li class="nav-item dropdown-item">پاریس</li>
+                                                        <li class="nav-item dropdown-item">آمستردام</li>
+                                                        <li class="nav-item dropdown-item">میلان</li>
+                                                        <li class="nav-item dropdown-item">نجف</li>
+                                                        <li class="nav-item dropdown-item">بغداد</li>
+                                                        <li class="nav-item dropdown-item">مسقط</li>
+                                                        <li class="nav-item dropdown-item">باکو</li>
+                                                        <li class="nav-item dropdown-item">وان</li>
+                                                        <li class="nav-item dropdown-item">دنیزلی</li>
+                                                        <li class="nav-item dropdown-item">ازمیر</li>
+                                                        <li class="nav-item dropdown-item">باتومی</li>
+                                                        <li class="nav-item dropdown-item">کولالامپور</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="select2" class="col-sm-5 col-md-5 col-lg-3 col-xl-3 col-xxl-3 p-0">
+                            <button class="row btn btn-light d-flex justify-content-start align-items-center"
+                                type="button">
+                                <div class="col-6 p-0">
+                                    <span class="mdi mdi-calendar-month-outline"></span>
+                                    <span class="float">تاریخ رفت</span>
+                                    <input class="w-100" type="text" data-jdp data-jdp-min-date="today"
+                                        placeholder="1403/12/10" data-jdp-only-date />
+                                </div>
+                                <div class="col-6  p-0">
+                                    <span class="mdi mdi-calendar-month-outline"></span>
+                                    <span class="float">تاریخ برگشت</span>
+                                    <input class="w-100" type="text" data-jdp data-jdp-min-date="today"
+                                        placeholder="1403/12/10" data-jdp-only-date />
+                                </div>
+                            </button>
+                        </div>
+
+                        <div id="select3" class="position-relative col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-0">
+                            <div class="row  d-flex justify-content-center align-items-center">
+                                <button class="btn btn-light d-flex justify-content-between align-items-center"
+                                    type="button">
+                                    <div class="d-flex align-items-center">
+                                        <span class="mdi mdi-account-group"></span>
+                                        <div class="floatingdiv ms-2 mt-2">
+                                            <span class="float">تعداد نفرات</span>
+                                            <strong class="counterpart"><span
+                                                    class="counterpart-num">1</span>مسافر</strong>
+                                        </div>
+                                    </div>
+                                    <div class="passengertype">
+                                        <span>اکونومی</span>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <section class="passenger position-absolute">
+                            <div class="row p-3">
+                                <div class="col-6">
+                                    <div class="row passenger_counter">
+                                        <div class="col-5 passenger_info">
+                                            <span>بزرگسال</span>
+                                            <span>12 سال به بالا</span>
+                                        </div>
+                                        <div class="col-7 passenger_num">
+                                            <span>+</span>
+                                            <span>1</span>
+                                            <span>-</span>
+                                        </div>
+                                    </div>
+                                    <div class="row passenger_counter">
+                                        <div class="col-5 passenger_info">
+                                            <span>کودک</span>
+                                            <span>2 تا 12 سال</span>
+                                        </div>
+                                        <div class="col-7 passenger_num">
+                                            <span>+</span>
+                                            <span>0</span>
+                                            <span>-</span>
+                                        </div>
+                                    </div>
+                                    <div class="row passenger_counter">
+                                        <div class="col-5 passenger_info">
+                                            <span>نوزاد</span>
+                                            <span>زیر 2 سال</span>
+                                        </div>
+                                        <div class="col-7 passenger_num">
+                                            <span>+</span>
+                                            <span>0</span>
+                                            <span>-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="typeselect col-6">
+                                    <div class="d-flex flex-column form-check p-0">
+                                        <section class="radiowrapper">
+                                            <div class="input-container">
+                                                <input type="radio" name="passengerbutton" id="eco"
+                                                    class="form-check-input" checked>
+                                                <div class="divradio"></div>
+                                                <div class="divradiocheck" style="margin-top: 5px;"></div>
+                                            </div>
+                                            <label class="form-check-label float-start" for="eco">
+                                                <div>
+                                                    <span>Economy</span>
+                                                    <span class="typeswap">اقتصادی</span>
+                                                </div>
+                                            </label>
+                                        </section>
+
+                                        <section class="radiowrapper">
+                                            <div class="input-container">
+                                                <input type="radio" name="passengerbutton" id="business"
+                                                    class="form-check-input">
+                                                <div class="divradio"></div>
+                                                <div class="divradiocheck" style="margin-top: 5px;"></div>
+                                            </div>
+                                            <label class="form-check-label float-start" for="business">
+                                                <div>
+                                                    <span>Business</span>
+                                                    <span class="typeswap">بیزنس</span>
+                                                </div>
+                                            </label>
+                                        </section>
+
+                                        <section class="radiowrapper">
+                                            <div class="input-container">
+                                                <input type="radio" name="passengerbutton" id="First"
+                                                    class="form-check-input">
+                                                <div class="divradio"></div>
+                                                <div class="divradiocheck"></div>
+                                            </div>
+                                            <label class="form-check-label float-start" for="First">
+                                                <div>
+                                                    <span>First</span>
+                                                    <span class="typeswap" style="font-size: 12.5px;">فرست کلاس</span>
+                                                </div>
+                                            </label>
+                                        </section>
+                                    </div>
+                                </div>
+                                <div class="col-12 p-0 passenger-button">
+                                    <button
+                                        class="px-0 btn btn-primary d-flex justify-content-center align-items-center"
+                                        type="button">
+                                        <span>تایید</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </section>
+
+                        <div id="select4" class="col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 p-0">
+                            <button class="px-0 btn btn-primary d-flex justify-content-center align-items-center"
+                                type="submit">
+                                <span>جستجو</span>
+                                <img src="images/Header/left-arrow.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </header>
+
+    <aside class="collapse" id="asideCollapse">
+        <ul class="navlist navbar-nav d-flex">
+            <li class="nav-item">
+                <a class="nav-link" href="#">بلیط&#8204;هواپیما</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">هتل</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">تور</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">پکیج</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">خدمات</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">پاسپورت&#8204;دومیناکا</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">بیمه</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">مجله&#8204;سه&#8204;کلیک</a>
+            </li>
+            <button href="#" type="button" class="btn btn-outline-primary px-3 d-lg-none d-md-block"
+                style="font-weight: 500;font-size: 17px;">پیگیری و استرداد</button>
+        </ul>
+        <button href="#" type="button" class="btn btn-outline-primary px-3 d-md-none d-lg-block"
+            style="font-weight: 500;font-size: 17px;"><span>پیگیری و استرداد</span></button>
+    </aside>
+    <div class="overlay" id="overlay"></div>
+
+    <main class="container-fluid" id="mainContent">
+
+        <!-- 3 part Section start-->
+        <section>
+            <section class="d-none d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none">
+                <section class="mt-4">
+                    <div class="row">
+                        <section class="col-4">
+                            <img src="images/Section 1/01.jpg" class="img-fluid " alt="Dominica offer">
+                        </section>
+                        <section class="col-4">
+                            <img src="images/Section 1/02.jpg" class="img-fluid " alt="Dominica offer">
+                        </section>
+                        <section class="col-4">
+                            <img src="images/Section 1/03.jpg" class="img-fluid " alt="Dominica offer">
+                        </section>
+                    </div>
+                </section>
+                <section class="mt-4">
+                    <div class="row">
+                        <section class="col-4">
+                            <img src="images/Section 1/01.jpg" class="img-fluid " alt="Dominica offer">
+                        </section>
+                        <section class="col-4">
+                            <img src="images/Section 1/02.jpg" class="img-fluid " alt="Dominica offer">
+                        </section>
+                        <section class="col-4">
+                            <img src="images/Section 1/03.jpg" class="img-fluid " alt="Dominica offer">
+                        </section>
+                    </div>
+                </section>
+            </section>
+            <section class="d-block d-xxl-none d-xl-none d-lg-block d-md-block d-sm-block mt-4">
+                <div id="mycarousel" class="carousel slide w-100" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" aria-current="true"
+                            class="active rounded-circle" style="height: 10px; width: 10px;"></button>
+                        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1" class="rounded-circle"
+                            style="height: 10px; width: 10px;"></button>
+                        <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="2" class="rounded-circle"
+                            style="height: 10px; width: 10px;"></button>
+                    </div>
+
+                    <div class="carousel-inner w-100">
+                        <div class="carousel-item active">
+                            <img src="images/Section 1/01.jpg" class="d-block w-100" height="300px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/Section 1/02.jpg" class="d-block w-100" height="300px">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="images/Section 1/03.jpg" class="d-block w-100" height="300px">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- 3 part Section end-->
+
+        <!-- Package Slider start-->
+        <section class="packages1 card mt-4 swiper">
+            <section class="card-header">
+                <h5>پکیج های مسافرتی سه کلیک</h5>
+                <div class="d-none d-sm-none d-md-none d-lg-flex d-xl-flex d-xxl-flex">
+                    <div>
+                        <i class="fa-solid fa-chevron-right swiperchevron-right"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chevron-left swiperchevron-left"></i>
+                    </div>
+                </div>
+            </section>
+
+            <div class="card-body swiper-wrapper">
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/01.jpg" alt="">
+                            <p>تور های لوکس اروپا</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/02.jpg" alt="">
+                            <p>تور لوکس برزیل، کلمبیا، آرژانتین</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/03.jpg" alt="">
+                            <p>تور لوکس آفریقای جنوبی</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/04.jpg" alt="">
+                            <p>تور لوکس روسیه</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/05.jpg" alt="">
+                            <p>تور لوکس ژاپن</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/06.jpg" alt="">
+                            <p>تور لوکس تایلند</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/07.jpg" alt="">
+                            <p>تور لوکس مالدیو</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/08.jpg" alt="">
+                            <p>تور لوکس مالزی و سنگاپور</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/09.jpg" alt="">
+                            <p>تور لوکس سریلانکا</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/10.jpg" alt="">
+                            <p>تور قبرس اروپایی</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/11.jpg" alt="">
+                            <p>تور لوکس ویتنام</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/12.jpg" alt="">
+                            <p>تور لوکس بالی</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/13.jpg" alt="">
+                            <p>تور لوکس آنتالیا</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/14.jpg" alt="">
+                            <p>تور هندوستان</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/15.jpg" alt="">
+                            <p>تفلیس</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/16.jpg" alt="">
+                            <p>تور لوکس چین</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/card-section/17.jpg" alt="">
+                            <p>تور لوکس ارمنستان</p>
+                            <button class="btn btn-primary">
+                                <span>پکیج در یک نگاه</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                </ul>
+        </section>
+        <!-- Package Slider end-->
+
+        <!-- Tour Slider start-->
+        <section class="packages1 card mt-4 swiper">
+            <section class="card-header">
+                <h5>تور های مسافرتی سه کلیک</h5>
+                <div class="d-none d-sm-none d-md-none d-lg-flex d-xl-flex d-xxl-flex">
+                    <div>
+                        <i class="fa-solid fa-chevron-right swiperchevron-right"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chevron-left swiperchevron-left"></i>
+                    </div>
+                </div>
+            </section>
+
+            <div class="card-body swiper-wrapper">
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/Tour-section/01.jpg" alt="">
+                            <p>تاشکنت</p>
+                            <button class="btn btn-primary">
+                                <span>مشاهده بیشتر</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/Tour-section/02.jpg" alt="">
+                            <p>شیراز</p>
+                            <button class="btn btn-primary">
+                                <span>مشاهده بیشتر</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/Tour-section/03.jpg" alt="">
+                            <p>تفلیس</p>
+                            <button class="btn btn-primary">
+                                <span>مشاهده بیشتر</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/Tour-section/04.jpg" alt="">
+                            <p>قشم</p>
+                            <button class="btn btn-primary">
+                                <span>مشاهده بیشتر</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/Tour-section/05.jpg" alt="">
+                            <p>استانبول</p>
+                            <button class="btn btn-primary">
+                                <span>مشاهده بیشتر</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/Tour-section/06.jpg" alt="">
+                            <p>دبی</p>
+                            <button class="btn btn-primary">
+                                <span>مشاهده بیشتر</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/Tour-section/07.jpg" alt="">
+                            <p>مسقط</p>
+                            <button class="btn btn-primary">
+                                <span>مشاهده بیشتر</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/Tour-section/08.jpg" alt="">
+                            <p>ایروان</p>
+                            <button class="btn btn-primary">
+                                <span>مشاهده بیشتر</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="card swiper-slide">
+                    <a href="#">
+                        <div class="card-body">
+                            <img class="" src="images/Tour-section/09.jpg" alt="">
+                            <p>مشهد</p>
+                            <button class="btn btn-primary">
+                                <span>مشاهده بیشتر</span>
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Tour Slider end-->
+
+        <!-- Magazine Part start -->
+        <div class="magazine container mt-5 p-0">
+            <div class="w-100 mb-4 suggest">
+                <a href="#" class="">
+                    <img src="images/Suggestion.png" class="img-fluid" alt="Suggestion Image">
+                </a>
+            </div>
+            <section class="magazine-body">
+                <div class="magazine-title d-flex justify-content-start align-items-center mb-4">
+                    <span>مجله</span>
+                    <img src="images/Logo.svg">
+                </div>
+                <div class="row mb-3 mb-sm-5">
+                    <a href="#" class="col-12 col-sm-5 mb-3 mb-sm-0 section1-right">
+                        <div class="ontop-image">
+                            <p>مالدیو؛ کشور جزیره ها</p>
+                            <p>هزینه سفر به مالدیو چقدر است؟</p>
+                        </div>
+                    </a>
+                    <a href="#" class="col-5 col-sm-3 section1-between">
+                        <div class="ontop-image">
+                            <p>دبی؛ سرزمین ترین ها</p>
+                            <p>عمیق&#8204;ترین استخر جهان</p>
+                        </div>
+                    </a>
+                    <a href="#" class="col-5 col-sm-3 section1-left">
+                        <div class="ontop-image">
+                            <p>بهشت روی زمین</p>
+                            <p>لوکس ترین هتل‌های بالی</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="row mb-3 mb-sm-5">
+                    <a href="#" class="col-12 col-sm-5 mb-3 mb-sm-0 section2-right">
+                        <div class="ontop-image">
+                            <p>پاریس؛ عروس شهر های اروپایی</p>
+                            <p>10 حقیقت عجیب درباره پاریس</p>
+                        </div>
+                    </a>
+                    <a href="#" class="col-5 col-sm-3 section2-between">
+                        <div class="ontop-image">
+                            <p>اسکله های تفریحی کیش</p>
+                            <p>از اسکله میرمهنا تا مارینا پارک</p>
+                        </div>
+                    </a>
+                    <a href="#" class="col-5 col-sm-3 section2-left">
+                        <div class="ontop-image">
+                            <p>گردشگری در مشهد</p>
+                            <p>بهترین مراکز خرید مشهد</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="#" class="col-12 col-sm-5 mb-3 mb-sm-0 section3-right">
+                        <div class="ontop-image">
+                            <p>جاهای دیدنی آنتالیا با لیست قیمت؛ راحت برنامه ریزی کنید!</p>
+                            <p style="visibility: hidden;"></p>
+                        </div>
+                    </a>
+                    <a href="#" class="col-5 col-sm-3 section3-between">
+                        <div class="ontop-image">
+                            <p>معرفی شهر استانبول</p>
+                            <p>محبوب‌ترین شهر برای ایرانی‌ها</p>
+                        </div>
+                    </a>
+                    <a href="#" class="col-5 col-sm-3 mb-3 mb-sm-0 section3-left" style="visibility: hidden;">
+                        <div class="ontop-image">
+                            <p>گردشگری در مشهد</p>
+                            <p>بهترین مراکز خرید مشهد</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <a href="#" id="magazine-more">
+                <p>مشاهده بیشتر</p>
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+        </div>
+        <!-- Magazine Part end -->
+
+        <!-- Best Of 3 Click Part start -->
+        <section class="theBest container mt-5 p-0">
+            <input type="checkbox" id="thebest-hide" hidden>
+            <div class="theBest-title d-flex justify-content-start align-items-center mb-4">
+                <span>بهترین های</span>
+                <img src="images/Logo.svg">
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                    <a href="#" class="theBest-link">
+                        <span>خرید بلیط هواپیما</span>
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                    <a href="#" class="theBest-link">
+                        <span>بلیط هواپیما کیش</span>
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <a href="#" class="theBest-link">
+                        <span>بلیط هواپیما مشهد</span>
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                    <a href="#" class="theBest-link">
+                        <span>بلیط هواپیما استانبول</span>
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                    <a href="#" class="theBest-link">
+                        <span>بلیط هواپیما تهران</span>
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-4">
+                    <a href="#" class="theBest-link">
+                        <span>بلیط هواپیما یزد</span>
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="theBest-hidden">
+                <div class="row mb-3">
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>تور کیش</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>تور مشهد</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <a href="#" class="theBest-link">
+                            <span>تور دبی</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>تور استانبول</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>رزرو هتل کیش</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <a href="#" class="theBest-link">
+                            <span>بلیط هواپیما دبی</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>بلیط هواپیما تبریز</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>بلیط هواپیما اهواز</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <a href="#" class="theBest-link">
+                            <span>تور بالی</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>تور تایلند</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>تور ترکیه</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <a href="#" class="theBest-link">
+                            <span>تور مالدیو</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>تور آنتالیا</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>بلیط هواپیما تهران استانبول</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <a href="#" class="theBest-link">
+                            <span>تور سریلانکا</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>رزرو هتل استانبول</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>بلیط هواپیما تهران کیش</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <a href="#" class="theBest-link">
+                            <span>هتل شایان کیش</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>بلیط هواپیما خارجی</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>هتل آنا کیش</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <a href="#" class="theBest-link">
+                            <span>تور پاریس</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>تور بارسلون</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4 mb-3 mb-sm-0">
+                        <a href="#" class="theBest-link">
+                            <span>هتل پالاس کیش</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-4">
+                        <a href="#" class="theBest-link">
+                            <span>پاسپورت دومیناکا</span>
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center mt-5">
+                <button id="theBest-more" class="btn btn-primary col-12 col-sm-3">
+                    <label for="thebest-hide">
+                        <span>نمایش کمتر</span>
+                    </label>
+                </button>
+            </div>
+        </section>
+        <!-- Best Of 3 Click Part end -->
+
+        <!-- 3 Click Questions Start-->
+        <section class="Questions container mt-5 p-0">
+            <div class="Question-title d-flex justify-content-start align-items-center mb-4">
+                <span>سوالات متداول</span>
+                <img src="images/Logo.svg">
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item mb-3">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span>شرایط و قوانین کنسل کردن بلیط هواپیما</span>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>
+                                شرایط و قوانین کنسل کردن <a href="#">بلیط هواپیما</a> بسته به کلاس پروازی،ایرلاین و مدت
+                                زمان باقی مانده
+                                تا پرواز متفاوت است و میزان بازگشت وجه در پرواز های داخلی بین ۱۰ الی ۹۰ درصد میباشد برای
+                                اطلاع از نحوه کنسل کردن بلیط و چگونگی بازگشت وجه کلیک کنید
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                            <span>حداکثر میزان بار مجاز قابل حمل در هواپیما چقدر است و در صورت داشتن اضافه بار چقدر
+                                جریمه خواهیم شد؟</span>
+                        </button>
+                    </h2>
+                    <div id="collapsetwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>
+                                یکی از دغدغه‌های اساسی مسافران در سفرهای هوایی، میزان به همراه داشتن بار است. باید
+                                بدانید که این میزان معمولا در ایرلاین‌های گوناگون، متفاوت است ولی عموما در اکثر ایرلاین
+                                ها همراه داشتن بار تا وزن 30 کیلوگرم مجاز بوده و در صورت مشاهده‌ی اضافه بار، به همان
+                                میزان ایرلاین می‌تواند شما را جریمه کند. همچنین جریمه اضافه بار بستگی به ایرلاین و
+                                قوانین آن دارد.
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 3 Click Questions end-->
+        <br><br>
+        <!-- 3 Click Honors Start-->
+        <div class="H-cards container p-0 mt-5 mb-3">
+            <section class="row">
+                <section class="col-12 col-lg-4 mb-4 mb-lg-0">
+                    <div id="honorcard">
+                        <img src="images/Honors/Medal.png" alt="">
+                        <h5>3 سال برند برتر گردشگری</h5>
+                        <p>خرید بلیط هواپیما</p>
+                        <p>بالای 9000 ایرلاین</p>
+                    </div>
+                </section>
+                <section class="col-12 col-lg-4 mb-4 mb-lg-0">
+                    <div id="honorcard">
+                        <img src="images/Honors/Baggag.png" alt="">
+                        <h5>30 سال سابقه گردشگری</h5>
+                        <p>رزرو آنلاین بالای 1,200,000 هتل</p>
+                        <p>در سراسر جهان</p>
+                    </div>
+                </section>
+                <section class="col-12 col-lg-4 mb-4 mb-lg-0">
+                    <div id="honorcard">
+                        <img src="images/Honors/Star.png" alt="">
+                        <h5>مجری لوکس ترین تورهای 5 ستاره</h5>
+                        <p>رزرو آنلاین تور و پکیج های 5 ستاره</p>
+                        <p>اروپایی و آسیایی</p>
+                    </div>
+                </section>
+            </section>
+        </div>
+        <!-- 3 Click Honors end-->
+    </main>
+
+    <footer class="pt-4">
+        <div class="footerpage container">
+            <section class="row">
+                <div class="col-2 ps-0">
+                    <p id="footer-top">سه کلیک</p>
+                    <ul class="navlist navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">پاسپورت دومیناکا</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">بلیط هواپیما چارتز</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">تور کیش</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">تور دبی</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">تور استانبول</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">بلیط هواپیما کیش</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">بلیط‌هواپیما‌استانبول</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">بلیط هواپیما دبی</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-2 ps-0">
+                    <p id="footer-top">راهنما و پشتیبانی</p>
+                    <ul class="navlist navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">تماس با ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">درباره ما</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">قوانین و مقررات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">قوانین سفر</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">آموزش خرید آنلاین از سایت</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">آموزش استرداد آنلاین</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2 col-xl-1 p-0">
+                    <p id="footer-top">اطلاعات تکمیلی</p>
+                    <ul class="navlist navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">فرصت شغلی</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">رزرو هتل</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">رزرو تور</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-address col-5 col-xl-4">
+                    <p id="footer-top">سه کلیک خرید بلیط هواپیما، تور و هتل</p>
+                    <p>آدرس سرزمین تابان کیش: کیش، بلوار امیرکبیر، بلوار ساحل، خیابان رودکی، هتل پارمیدا، طبقه همکف</p>
+                    <p>آدرس دفتر پشتیبانی: تهران، خیابان شریعتی، بالاتر از میرداماد، پلاک 1166</p>
+                    <p>پشتیبانی 24 ساعته: 22222426-021</p>
+                    <p>شبکه های اجتماعی:</p>
+                    <div>
+                        <button href="#" type="button" class="btn btn-outline-primary px-3">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                        <button href="#" type="button" class="btn btn-outline-primary px-3">
+                            <span class="mdi mdi-facebook"></span>
+                        </button>
+                        <button href="#" type="button" class="btn btn-outline-primary px-3">
+                            <span class="mdi mdi-linkedin"></span>
+                        </button>
+                        <button href="#" type="button" class="btn btn-outline-primary px-3">
+                            <span class="mdi mdi-instagram"></span>
+                        </button>
+                        <button href="#" type="button" class="btn btn-outline-primary px-3">
+                            <span class="mdi mdi-twitter"></span>
+                        </button>
+                    </div>
+                    <p style="justify-self: center; margin-top: 15px;">0.9.48</p>
+                </div>
+                <div class="namads col-12 col-xl-3" style="justify-self: end;">
+                    <div class="row mb-2">
+                        <a href="#" class="col-2 col-xl-4"><img src="images/footer/taban-kish.jpg" alt=""></a>
+                        <a href="#" class="col-2 col-xl-4"><img src="images/footer/enamad.png" alt=""></a>
+                        <a href="#" class="col-2 col-xl-4"><img src="images/footer/samandehi.png" alt=""></a>
+                    </div>
+                    <div class="row">
+                        <a href="#" class="col-2 col-xl-4"><img src="images/footer/nerkhebilit.jpg" alt=""></a>
+                        <a href="#" class="col-2 col-xl-4"><img src="images/footer/havapeymaei-keshvari.jpg" alt=""></a>
+                        <a href="#" class="col-2 col-xl-4"><img src="images/footer/hoghoghe-mosafer.jpg" alt=""></a>
+                    </div>
+                </div>
+            </section>
+            <p class="copyright mt-3" style="justify-self: center;">
+                <i class="fa-solid fa-copyright"></i> تمامی حقوق این سایت متعلق به آژانس مسافرتی <img
+                    src="images/Logo.svg" alt="">می‌باشد.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="styles/js/jquery.js"></script>
+    <script src="styles/js/popper.js"></script>
+    <script src="styles/js/bootstrap.js"></script>
+    <script src="styles/js/script.js"></script>
+
+</body>
+
+</html>
