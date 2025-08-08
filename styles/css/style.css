@@ -1647,3 +1647,54 @@ div.footer-address div button.btn-outline-primary:hover {
   width: 50px;
 }
 /*----- 3 Click Footer end -----*/
+
+/* ---------------- Fix: Dropdown hidden under carousel on small screens ---------------- */
+/*
+Reason: In responsive view the Bootstrap dropdown inside the header was being painted
+below the carousel because of new stacking contexts created (e.g. backdrop-filter / transforms)
+and/or other positioned elements. We raise the stacking order of the header & its dropdown
+while keeping specificity low and without impacting other components.
+*/
+header,
+.headerpart {
+  position: relative;
+  z-index: 120;
+}
+.headerpart .dropdown,
+.headerpart .dropdown-menu {
+  z-index: 125;
+}
+/* Ensure the menu is not clipped by any ancestor (none currently set, but future‑proof) */
+.headerpart .dropdown-menu {
+  overflow: visible;
+}
+/* On very small devices give the menu max width and allow scrolling if tall */
+@media (max-width: 768px) {
+  .headerpart .dropdown-menu {
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+}
+/* ------------------------------------------------------------------------------- */
+
+/* ---------------- Jalali Datepicker layering & positioning fix ---------------- */
+/* Ensure Jalali datepicker popups overlay carousels, dropdowns, and blurred header */
+.jalali-datepicker,
+.jalali-datepicker-container,
+.jalali-date-picker,
+div[id^="jalaliDatepicker"],
+#jalaliDatepicker-Backdrop {
+  z-index: 3000 !important; /* Above header (1200) & dropdown (1250) */
+}
+/* Guard against any parent clipping */
+.jalali-datepicker-container {
+  position: absolute;
+}
+/* Smaller screens: limit height & allow scroll inside calendar if needed */
+@media (max-width: 576px) {
+  .jalali-datepicker-container {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+}
+/* ------------------------------------------------------------------------------- */
